@@ -49,7 +49,7 @@ function parseCandidate(line) {
 async function main() {
   let iceServerLst = localStorage.getItem("iceServerLst");
   if (!iceServerLst) {
-    let res = await fetch("/servers.txt");
+    let res = await fetch("./servers.txt");
     iceServerLst = await res.text();
   }
   let iceServers = [];
