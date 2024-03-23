@@ -1,0 +1,2 @@
+stun4.l.google.com
+stun.voipbuster.com

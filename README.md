@@ -1,84 +1,26 @@
-# NatTypeChecker
-A useful NAT type checker with STUN protocol, base JS.
+# NAT 类型检查工具
 
-Using Google stun server, available.
+一个使用 STUN 协议且基于 JS 的可用的 NAT 类型检查工具(修改自https://github.com/nthack/NatTypeChecker).
 
-<br>
+## 用法
 
-> Quote: 
->
-> https://webrtchacks.com/symmetric-nat/
->
-> https://jsfiddle.net/5ftsd5c2/17/
->
-> https://github.com/fippo/sdp
+本页面已经集成了本工具:
 
-<br>
+<iframe src="https://dz-io.github.io/NatTypeChecker/checker.html" frameborder="0" style="height: 2em; width: 100%">
 
-# Usage
-1. Open Chrome, and open `Developer Tools` in Chrome (`F12`)
-2. Switch to `Console` tab, Paste the code from `checker.js` into console, then Press `Enter` to run the script
-3. `Console` will print your NAT type below.
+当前环境不支持，[请点这里使用独立工具](https://dz-io.github.io/NatTypeChecker/checker.html)
 
-<br>
+</iframe>
 
-# Prints
->`normal nat`: Means your NAT type is normal NAT type, asymmetric.
->
->`symmetric nat`：Means your NAT type is symmetric NAT type.
+[如果需要独立的工具，请点这里](https://dz-io.github.io/NatTypeChecker/checker.html)
 
-<br>
+## 输出
 
-# After
-This just a little tool to check your NAT type, not an official tools.
+> `Normal`: 表示为普通 NAT（非对称 NAT）
+> `Symmetric`：表示对称型 NAT
 
-As usual, Iphone hotspot wifi sharing is a symmetric NAT, home land network is asymmetric, Switch your network for a test, you will know.
-Tanks.
+## 写在最后
 
+这是一个测试你的 NAT 类型小工具，并不是官方的工具
 
-<br>
-
----
----
-
-<br>
-
-
-# NAT类型检查工具
-一个使用STUN协议且基于JS的可用的NAT类型检查工具.
-
-使用Google的stun服务器，可用，记得看看自己是否能访问Google。
-
-<br>
-
-> 引用/相关文章：
->
-> https://webrtchacks.com/symmetric-nat/
->
-> https://jsfiddle.net/5ftsd5c2/17/
->
-> https://github.com/fippo/sdp
-
-<br>
-
-# 用法
-1. 打开`Chrome`，打开`开发者工具`(`F12`)
-2. 选择`Console`控制台面板并粘贴从`checker.js`复制的代码，按`回车`键运行
-3. `Console`控制台会在下方输出你的网络类型
-
-<br>
-
-# 输出
-> `normal nat`: 表示为普通NAT（非对称NAT）
->
-> `symmetric nat`：表示对称型NAT
-
-<br>
-
-# 写在最后
-这是一个测试你的NAT类型小工具，并不是官方的工具。
-
-通常来说，Iphone的热点是对称型的NAT，家庭宽带是非对称的NAT，大家换一下网络测试一下就知道，
-
-
-
+通常来说，Iphone 的热点是对称型的 NAT，家庭宽带是非对称的 NAT，大家换一下网络测试一下就知道

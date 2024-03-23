@@ -1,0 +1,9 @@
+* {
+  background: #000;
+  color: #fff;
+  outline: none;
+  border-color: #333;
+}
+a:visited {
+  color: #fff;
+}

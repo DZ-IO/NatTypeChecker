@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+  label {
+    display: flex;
+    input {
+      flex: 1;
+    }
+  }
+  div {
+    display: flex;
+    div {
+      flex: 1;
+    }
+  }
+}
